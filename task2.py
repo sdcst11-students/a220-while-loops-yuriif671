@@ -29,3 +29,13 @@ Access granted
 
 
 """
+
+while True:
+    username = str(input("Gimme ur name: "))
+    password = str(input("Gimme ur password: "))
+
+    if username == 'admin' and password == '12345':
+        print("Ur in!")
+        break
+
+    print("Ur not in!")

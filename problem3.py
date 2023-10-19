@@ -13,3 +13,16 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+
+a = 0
+b = 1
+sum = a + b
+
+count = 1
+
+while (a <= 100):
+
+	print(a, end=" ")
+	a = b
+	b = sum
+	sum = a + b
